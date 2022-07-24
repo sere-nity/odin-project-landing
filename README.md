@@ -1,1 +1,1 @@
-# odin-project-landing-
+# odin-project-landing
