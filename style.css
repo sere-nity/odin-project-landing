@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: #F9FAF8;
+    background-color: blueviolet;
 }
 
 .top-half{
@@ -9,6 +10,7 @@ body{
     flex-direction: column;
     padding: 8px 128px;
     gap: 32px;
+    margin-bottom: 0;
 }
 
 .header{
@@ -39,6 +41,7 @@ a.link{
     gap: 16px;
     padding: 64px 0px;
     justify-content: center;
+    align-items: center;
 }
 
 .header-content{
@@ -54,4 +57,105 @@ a.link{
     border-radius: 8px;
     border: 0ch;
     padding: 16px 32px;
+}
+
+h1.title{
+    font-size: 48px;
+}
+
+h2.title{
+    color: #1F2937;
+    text-align: center;
+    padding: 16px;
+    margin-top: 0;
+}
+
+img {
+    max-width: 200px;
+    max-height: 230px;
+    width: auto;
+    height: auto;
+}
+
+.second-half{
+    background-color: #F9FAF8;
+    padding: 8px 128px;
+    padding-bottom: 64px;
+}
+
+.panels{
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+}
+
+.panel, .caption{
+    color: #1F2937;
+    text-align: center;
+    max-width: 170px;
+}
+
+img.box{
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    border: 2px solid #1F2937;
+    border-radius: 6px;
+}
+
+.third-half{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.quote-caption{
+    color: #1F2937;
+    font-weight: bold;
+    text-align: end;
+}
+
+.fourth-half{
+    background-color: #F9FAF8;
+    padding: 64px 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.call-to-action{
+    background-color: #3882F6;
+    border-radius: 16px;
+    padding: 8px 32px;
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    align-items: center;
+}
+
+button.footer-button{
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    color: #F9FAF8;
+    max-height: 64px;
+    padding: 16px 32px;
+    font-weight: bolder;
 }
